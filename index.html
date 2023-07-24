@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Solution</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-garamond {
+        font-family: "EB Garamond", serif;
+      }
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-poppins">
+    <!-- header section -->
+    <header class="container px-5 lg:px-40 mx-auto">
+      <!-- navbar section -->
+      <nav class="py-12">
+        <div class="flex flex-col lg:flex-row justify-between">
+          <a class="btn btn-ghost text-xl flex-none">
+            <img src="./images/logo2.png" alt="" />
+          </a>
+          <div class="flex justify-between gap-3 flex-1">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Cases</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Cases</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="">
+              <a class="btn bg-[#B68C5A] text-white font-semibold normal-case"
+                >Free Consultation</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section -->
+      <div
+        class="hero min-h-[calc(100vh-148px)] rounded-lg"
+        style="background-image: url('./images/banner.png')"
+      >
+        <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-sm md:max-w-md lg:max-w-[60%]">
+            <h1 class="mb-5 text-5xl lg:text-7xl font-bold font-garamond">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-5">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <input
+              type="text"
+              placeholder="Search your services"
+              class="p-3 mr-3 pr-44 rounded-lg"
+            />
+            <button
+              class="btn bg-[#B68C5A] border-none text-white text-sm px-8 py-2 normal-case"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main class="container px-5 lg:px-40 mx-auto">
+      <!-- legal section -->
+    </main>
+  </body>
+</html>
